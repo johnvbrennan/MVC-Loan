@@ -1,0 +1,18 @@
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.MvcServices\bin\Debug\Visma.Loan.MvcServices.dll
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.MvcServices\bin\Debug\Visma.Loan.MvcServices.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.MvcServices\bin\Debug\Visma.Loan.Domain.dll
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.MvcServices\bin\Debug\Visma.Loan.Services.dll
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.MvcServices\bin\Debug\Visma.Loan.Domain.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.MvcServices\bin\Debug\Visma.Loan.Services.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.MvcServices\obj\Debug\Contoso.Loan.MvcServices.csprojResolveAssemblyReference.cache
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.MvcServices\obj\Debug\Visma.Loan.MvcServices.dll
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.MvcServices\obj\Debug\Visma.Loan.MvcServices.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.MvcServices\bin\Debug\Contoso.Loan.MvcServices.dll
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.MvcServices\bin\Debug\Contoso.Loan.MvcServices.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.MvcServices\bin\Debug\Contoso.Loan.Domain.dll
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.MvcServices\bin\Debug\Contoso.Loan.Services.dll
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.MvcServices\bin\Debug\Contoso.Loan.Domain.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.MvcServices\bin\Debug\Contoso.Loan.Services.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.MvcServices\obj\Debug\Contoso.Loan.MvcServices.csprojResolveAssemblyReference.cache
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.MvcServices\obj\Debug\Contoso.Loan.MvcServices.dll
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.MvcServices\obj\Debug\Contoso.Loan.MvcServices.pdb

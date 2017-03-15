@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2B7B3C7B-8D25-4F5A-A77E-C24B2F02D846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Loan.Mvc.Tests", "Contoso.Loan.Web.Tests\Contoso.Loan.Mvc.Tests.csproj", "{24589C4B-C597-4637-A74D-B7A7F5F3915D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Loan.MvcServices.Tests", "Contoso.Loan.UnitTests\Contoso.Loan.MvcServices.Tests.csproj", "{B9D56A69-7502-4063-9F64-E3514C0781BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Loan.Domain", "Contoso.Loan.Domain\Contoso.Loan.Domain.csproj", "{BCE27459-4A67-4FC3-9538-F0EFA6C7A473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Loan.Mvc", "Contoso.Loan.Mvc\Contoso.Loan.Mvc.csproj", "{908F5F79-E9DF-4EA5-BA0F-A9FF8B7A98CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Loan.Services", "Contoso.Loan.Services\Contoso.Loan.Services.csproj", "{A8EE461E-2100-464D-8BA0-C577C86AFDE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Loan.MvcServices", "Contoso.Loan.MvcServices\Contoso.Loan.MvcServices.csproj", "{29F2C6DE-11C4-4B18-8427-1DFEE856F723}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24589C4B-C597-4637-A74D-B7A7F5F3915D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24589C4B-C597-4637-A74D-B7A7F5F3915D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24589C4B-C597-4637-A74D-B7A7F5F3915D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24589C4B-C597-4637-A74D-B7A7F5F3915D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D56A69-7502-4063-9F64-E3514C0781BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D56A69-7502-4063-9F64-E3514C0781BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D56A69-7502-4063-9F64-E3514C0781BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D56A69-7502-4063-9F64-E3514C0781BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE27459-4A67-4FC3-9538-F0EFA6C7A473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE27459-4A67-4FC3-9538-F0EFA6C7A473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE27459-4A67-4FC3-9538-F0EFA6C7A473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE27459-4A67-4FC3-9538-F0EFA6C7A473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908F5F79-E9DF-4EA5-BA0F-A9FF8B7A98CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908F5F79-E9DF-4EA5-BA0F-A9FF8B7A98CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908F5F79-E9DF-4EA5-BA0F-A9FF8B7A98CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908F5F79-E9DF-4EA5-BA0F-A9FF8B7A98CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EE461E-2100-464D-8BA0-C577C86AFDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EE461E-2100-464D-8BA0-C577C86AFDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EE461E-2100-464D-8BA0-C577C86AFDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EE461E-2100-464D-8BA0-C577C86AFDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F2C6DE-11C4-4B18-8427-1DFEE856F723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F2C6DE-11C4-4B18-8427-1DFEE856F723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F2C6DE-11C4-4B18-8427-1DFEE856F723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F2C6DE-11C4-4B18-8427-1DFEE856F723}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24589C4B-C597-4637-A74D-B7A7F5F3915D} = {2B7B3C7B-8D25-4F5A-A77E-C24B2F02D846}
+		{B9D56A69-7502-4063-9F64-E3514C0781BC} = {2B7B3C7B-8D25-4F5A-A77E-C24B2F02D846}
+	EndGlobalSection
+EndGlobal

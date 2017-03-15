@@ -1,0 +1,65 @@
+﻿@model Visma.Loan.MvcServices.ViewModels.LoanSummaryViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+@if (@Model == null)
+{
+    <div class="form-group">
+        @Html.ActionLink("Create New Home Loan", "Index", "Loan", new { noDefault = true }, new { @class = "btn btn-success" })
+    </div>
+}
+else
+{
+    <div id="loan-form" class="col-md-4">
+        <h2>New Home Loan</h2>
+        <div class="form-group">
+            <span>@Html.LabelFor(m => m.LoanAmount)</span>
+            <span>@Model.LoanAmount.ToString("C")</span>
+        </div>
+        <div class="form-group">
+            <span>@Html.LabelFor(m => m.InterestRate)</span>
+            <span>@Model.InterestRate%</span>
+        </div>
+        <div class="form-group">
+            <span>@Html.LabelFor(m => m.Term)</span>
+            <span>@Model.Term years</span>
+        </div>
+        <div class="form-group">
+            <span>@Html.LabelFor(m => m.NumberOfRepayments)</span>
+            <span>@Model.NumberOfRepayments</span>
+        </div>
+        <div>
+            <span>@Html.LabelFor(m => m.TotalRepaymentAmount)</span>
+            <span>@Model.TotalRepaymentAmount.ToString("C")</span>
+        </div>
+        <div class="form-group"> 
+            @Html.ActionLink("Start Over", "Index", "Loan", new { noDefault = true }, new { @class = "btn btn-success" })
+        </div> 
+    </div>
+    <div id="details-form" class="col-md-8">
+        <h2>Repayment Schedule</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Payment Date</th>
+                    <th>Amount</th>
+                    <th>Principal Paid</th>
+                    <th>Interest Paid</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ScheduledPayments)
+                {
+                    <tr>
+                        <td>@item.PaymentDate</td>
+                        <td>@item.TotalPaid</td>
+                        <td>@item.PrinciplePaidAmount</td>
+                        <td>@item.InterestPaidAmount</td>
+                        <td>@item.RemainingBalance</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

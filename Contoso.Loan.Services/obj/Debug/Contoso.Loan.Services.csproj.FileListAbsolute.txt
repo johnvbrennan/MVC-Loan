@@ -1,0 +1,13 @@
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.Services\bin\Debug\Visma.Loan.Services.dll
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.Services\bin\Debug\Visma.Loan.Services.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.Services\bin\Debug\Visma.Loan.Domain.dll
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.Services\bin\Debug\Visma.Loan.Domain.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.Services\obj\Debug\Visma.Loan.Services.dll
+C:\Users\jbrennan\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.Services\obj\Debug\Visma.Loan.Services.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.Services\bin\Debug\Contoso.Loan.Services.dll
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.Services\bin\Debug\Contoso.Loan.Services.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.Services\bin\Debug\Contoso.Loan.Domain.dll
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.Services\bin\Debug\Contoso.Loan.Domain.pdb
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.Services\obj\Debug\Contoso.Loan.Services.csprojResolveAssemblyReference.cache
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.Services\obj\Debug\Contoso.Loan.Services.dll
+C:\Users\jbrennan\Dropbox\My Documents\Development\Contoso Bank\Contoso.Loan.Services\obj\Debug\Contoso.Loan.Services.pdb

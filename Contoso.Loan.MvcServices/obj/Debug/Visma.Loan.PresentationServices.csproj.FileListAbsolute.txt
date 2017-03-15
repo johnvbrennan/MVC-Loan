@@ -1,0 +1,5 @@
+C:\Users\John\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.PresentationServices\bin\Debug\Visma.Loan.PresentationServices.dll
+C:\Users\John\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.PresentationServices\bin\Debug\Visma.Loan.PresentationServices.pdb
+C:\Users\John\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.PresentationServices\obj\Debug\Visma.Loan.PresentationServices.csprojResolveAssemblyReference.cache
+C:\Users\John\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.PresentationServices\obj\Debug\Visma.Loan.PresentationServices.dll
+C:\Users\John\Dropbox\My Documents\Personal\Career\Interviews\Assignment\Visma.Loan\Visma.Loan.PresentationServices\obj\Debug\Visma.Loan.PresentationServices.pdb
