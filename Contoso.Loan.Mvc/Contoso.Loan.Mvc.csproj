@@ -19,7 +19,6 @@
   </ItemGroup>
 
 </Project>
-    <Content Include="lib\bootstrap\dist\css\bootstrap-theme.css" />
     <Content Include="lib\bootstrap\dist\css\bootstrap-theme.min.css" />
     <Content Include="lib\bootstrap\dist\css\bootstrap.css" />
     <Content Include="lib\bootstrap\dist\css\bootstrap.min.css" />
