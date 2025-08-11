@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Contoso.Loan.Mvc.props" />
+</Project>

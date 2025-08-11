@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Ploeh.AutoFixture;
+using AutoFixture;
 using System;
 using System.Collections.Generic;
 using System.Linq;

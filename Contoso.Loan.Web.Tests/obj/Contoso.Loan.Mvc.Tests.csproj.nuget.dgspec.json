@@ -1,0 +1,369 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ubuntu/MVC-Loan/Contoso.Loan.Web.Tests/Contoso.Loan.Mvc.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/Contoso.Loan.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/Contoso.Loan.Domain.csproj",
+        "projectName": "Contoso.Loan.Domain",
+        "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/Contoso.Loan.Domain.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ubuntu/MVC-Loan/Contoso.Loan.Mvc/Contoso.Loan.Mvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/MVC-Loan/Contoso.Loan.Mvc/Contoso.Loan.Mvc.csproj",
+        "projectName": "Contoso.Loan.Mvc",
+        "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Mvc/Contoso.Loan.Mvc.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Mvc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/Contoso.Loan.Domain.csproj": {
+                "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/Contoso.Loan.Domain.csproj"
+              },
+              "/home/ubuntu/MVC-Loan/Contoso.Loan.MvcServices/Contoso.Loan.MvcServices.csproj": {
+                "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.MvcServices/Contoso.Loan.MvcServices.csproj"
+              },
+              "/home/ubuntu/MVC-Loan/Contoso.Loan.Services/Contoso.Loan.Services.csproj": {
+                "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Services/Contoso.Loan.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ubuntu/MVC-Loan/Contoso.Loan.MvcServices/Contoso.Loan.MvcServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/MVC-Loan/Contoso.Loan.MvcServices/Contoso.Loan.MvcServices.csproj",
+        "projectName": "Contoso.Loan.MvcServices",
+        "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.MvcServices/Contoso.Loan.MvcServices.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.MvcServices/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/Contoso.Loan.Domain.csproj": {
+                "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/Contoso.Loan.Domain.csproj"
+              },
+              "/home/ubuntu/MVC-Loan/Contoso.Loan.Services/Contoso.Loan.Services.csproj": {
+                "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Services/Contoso.Loan.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ubuntu/MVC-Loan/Contoso.Loan.Services/Contoso.Loan.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/MVC-Loan/Contoso.Loan.Services/Contoso.Loan.Services.csproj",
+        "projectName": "Contoso.Loan.Services",
+        "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Services/Contoso.Loan.Services.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/Contoso.Loan.Domain.csproj": {
+                "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/Contoso.Loan.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ubuntu/MVC-Loan/Contoso.Loan.Web.Tests/Contoso.Loan.Mvc.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubuntu/MVC-Loan/Contoso.Loan.Web.Tests/Contoso.Loan.Mvc.Tests.csproj",
+        "projectName": "Contoso.Loan.Mvc.Tests",
+        "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Web.Tests/Contoso.Loan.Mvc.Tests.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Web.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ubuntu/MVC-Loan/Contoso.Loan.Mvc/Contoso.Loan.Mvc.csproj": {
+                "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.Mvc/Contoso.Loan.Mvc.csproj"
+              },
+              "/home/ubuntu/MVC-Loan/Contoso.Loan.MvcServices/Contoso.Loan.MvcServices.csproj": {
+                "projectPath": "/home/ubuntu/MVC-Loan/Contoso.Loan.MvcServices/Contoso.Loan.MvcServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

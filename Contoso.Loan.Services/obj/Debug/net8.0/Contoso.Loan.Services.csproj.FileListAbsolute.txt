@@ -1,0 +1,13 @@
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/bin/Debug/net8.0/Contoso.Loan.Services.deps.json
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/bin/Debug/net8.0/Contoso.Loan.Services.dll
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/bin/Debug/net8.0/Contoso.Loan.Services.pdb
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/bin/Debug/net8.0/Contoso.Loan.Domain.dll
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/bin/Debug/net8.0/Contoso.Loan.Domain.pdb
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/obj/Debug/net8.0/Contoso.Loan.Services.csproj.AssemblyReference.cache
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/obj/Debug/net8.0/Contoso.Loan.Services.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/obj/Debug/net8.0/Contoso.Loan.Services.csproj.CoreCompileInputs.cache
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/obj/Debug/net8.0/Contoso..E9CD41C2.Up2Date
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/obj/Debug/net8.0/Contoso.Loan.Services.dll
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/obj/Debug/net8.0/refint/Contoso.Loan.Services.dll
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/obj/Debug/net8.0/Contoso.Loan.Services.pdb
+/home/ubuntu/MVC-Loan/Contoso.Loan.Services/obj/Debug/net8.0/ref/Contoso.Loan.Services.dll

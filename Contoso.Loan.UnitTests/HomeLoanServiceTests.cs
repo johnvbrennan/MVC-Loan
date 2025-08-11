@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Ploeh.AutoFixture;
+using AutoFixture;
 using Contoso.Loan.Domain.Messages;
 using Contoso.Loan.Domain.Requests;
 using Contoso.Loan.Domain.Responses;

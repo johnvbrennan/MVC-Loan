@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Contoso.Loan.Services/1.0.0": {
+        "dependencies": {
+          "Contoso.Loan.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Contoso.Loan.Services.dll": {}
+        }
+      },
+      "Contoso.Loan.Domain/1.0.0": {
+        "runtime": {
+          "Contoso.Loan.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contoso.Loan.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contoso.Loan.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

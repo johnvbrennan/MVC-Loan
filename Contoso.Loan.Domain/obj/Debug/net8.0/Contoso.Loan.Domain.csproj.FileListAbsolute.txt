@@ -1,0 +1,9 @@
+/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/obj/Debug/net8.0/Contoso.Loan.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/obj/Debug/net8.0/Contoso.Loan.Domain.csproj.CoreCompileInputs.cache
+/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/bin/Debug/net8.0/Contoso.Loan.Domain.deps.json
+/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/bin/Debug/net8.0/Contoso.Loan.Domain.dll
+/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/bin/Debug/net8.0/Contoso.Loan.Domain.pdb
+/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/obj/Debug/net8.0/Contoso.Loan.Domain.dll
+/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/obj/Debug/net8.0/refint/Contoso.Loan.Domain.dll
+/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/obj/Debug/net8.0/Contoso.Loan.Domain.pdb
+/home/ubuntu/MVC-Loan/Contoso.Loan.Domain/obj/Debug/net8.0/ref/Contoso.Loan.Domain.dll

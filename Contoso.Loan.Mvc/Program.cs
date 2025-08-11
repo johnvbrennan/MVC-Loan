@@ -3,6 +3,7 @@ using Autofac.Extensions.DependencyInjection;
 using Contoso.Loan.Mvc.Configuration;
 using Contoso.Loan.MvcServices.Interfaces;
 using Contoso.Loan.MvcServices.Services;
+using Contoso.Loan.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 {
     containerBuilder.RegisterType<HomeLoanService>().As<IHomeLoanService>();
     containerBuilder.RegisterType<HomeLoanDefaultConfiguration>().As<ILoanDefaultConfiguration>();
+    containerBuilder.RegisterType<LoanService>().As<ILoanService>();
 });
 
 builder.Services.AddControllersWithViews();

@@ -1,9 +1,15 @@
-﻿@model System.Web.Mvc.HandleErrorInfo
+﻿@model Microsoft.AspNetCore.Diagnostics.IExceptionHandlerPathFeature
 
 @{
     ViewBag.Title = "Error";
 }
 
 <h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your serviceRequest.</h2>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+@if (Model?.Error != null && ViewContext.HttpContext.RequestServices.GetService<IWebHostEnvironment>()?.IsDevelopment() == true)
+{
+    <h3>Exception Details:</h3>
+    <p>@Model.Error.Message</p>
+}
 

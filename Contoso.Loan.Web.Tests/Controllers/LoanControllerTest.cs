@@ -1,7 +1,7 @@
-﻿using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Ploeh.AutoFixture;
+using AutoFixture;
 using Contoso.Loan.Mvc.Controllers;
 using Contoso.Loan.MvcServices.Interfaces;
 using Contoso.Loan.MvcServices.ViewModels;

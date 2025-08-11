@@ -11,7 +11,7 @@ namespace Contoso.Loan.Mvc.Configuration
             _configuration = configuration;
         }
 
-        public decimal DefaultLoanAmount => decimal.Parse(_configuration["LoanDefaults:DefaultLoanAmount"] ?? "2000");
+        public int DefaultLoanAmount => int.Parse(_configuration["LoanDefaults:DefaultLoanAmount"] ?? "2000");
 
         public decimal DefaultInterestRate => decimal.Parse(_configuration["LoanDefaults:DefaultInterestRate"] ?? "3.5");
 

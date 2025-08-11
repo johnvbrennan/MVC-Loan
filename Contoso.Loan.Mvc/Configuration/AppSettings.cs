@@ -1,25 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Web;
+using Microsoft.Extensions.Configuration;
 
 namespace Contoso.Loan.Mvc.Configuration
 {
     public static class AppSettings
     { 
+        private static IConfiguration? _configuration;
+        
+        public static void Initialize(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         public static int DefaultLoanAmount
         {
             get
             {
-                string value = ConfigurationManager.AppSettings["DefaultLoanAmount"];
-
-                if (value == null)
-                {
-                    throw new Exception(String.Format("Could not find setting for DefaultLoanAmount in web.config"));
-                }
-
-                return Convert.ToInt32(value);
+                if (_configuration == null)
+                    throw new InvalidOperationException("AppSettings not initialized. Call Initialize() first.");
+                    
+                string? value = _configuration["LoanDefaults:DefaultLoanAmount"];
+                return int.Parse(value ?? "2000");
             }
         }
 
@@ -27,14 +27,11 @@ namespace Contoso.Loan.Mvc.Configuration
         {
             get
             {
-                string value = ConfigurationManager.AppSettings["DefaultLoanTerm"];
-
-                if (value == null)
-                {
-                    throw new Exception(String.Format("Could not find setting for DefaultLoanTerm in web.config"));
-                }
-
-                return Convert.ToInt32(value);
+                if (_configuration == null)
+                    throw new InvalidOperationException("AppSettings not initialized. Call Initialize() first.");
+                    
+                string? value = _configuration["LoanDefaults:DefaultLoanTerm"];
+                return int.Parse(value ?? "1");
             }
         }
 
@@ -42,14 +39,11 @@ namespace Contoso.Loan.Mvc.Configuration
         {
             get
             {
-                string value = ConfigurationManager.AppSettings["DefaultInterestRate"];
-
-                if (value == null)
-                {
-                    throw new Exception(String.Format("Could not find setting for DefaultInterestRate in web.config"));
-                }
-
-                return Convert.ToDecimal(value);
+                if (_configuration == null)
+                    throw new InvalidOperationException("AppSettings not initialized. Call Initialize() first.");
+                    
+                string? value = _configuration["LoanDefaults:DefaultInterestRate"];
+                return decimal.Parse(value ?? "3.5");
             }
         }
     }
