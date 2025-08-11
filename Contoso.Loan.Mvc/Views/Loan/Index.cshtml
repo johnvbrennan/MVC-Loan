@@ -1,11 +1,11 @@
-﻿@model Visma.Loan.MvcServices.ViewModels.HomeLoanViewModel
+﻿@model Contoso.Loan.MvcServices.ViewModels.HomeLoanViewModel
 @{
     ViewBag.Title = "Home Page";
 } 
 @section scripts{
-    <script type="text/javascript" src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
-    <script type="text/javascript" src="/lib/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/lib/jquery-validation/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-ui/jquery-ui.min.js"></script>
 
     <script type="text/javascript">
         $(function () {
@@ -14,7 +14,7 @@
         })
     </script>
 }
-<link rel="stylesheet" type="text/css" href="/lib/jquery-ui/themes/base/jquery-ui.min.css"/>
+<link rel="stylesheet" type="text/css" href="~/lib/jquery-ui/themes/ui-lightness/jquery-ui.min.css"/>
 <div id="search-form" class="col-md-12">
     <h2>New Home Loan</h2>
     @using (Html.BeginForm())
@@ -45,4 +45,4 @@
             <input type="submit" value="Submit" class="btn btn-success"/> 
         </div> 
     }
-</div>  
+</div>    

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Contoso.Loan.Domain.Enums;
 using Contoso.Loan.Mvc.Configuration;
 using Contoso.Loan.MvcServices.Interfaces;
@@ -59,7 +58,7 @@ namespace Contoso.Loan.Mvc.Controllers
             {
                 foreach (var message in response.ValidationMessages)
                 {
-                    ViewData.ModelState.AddModelError("ServerError", message.Message);
+                    ModelState.AddModelError("ServerError", message.Message);
                 }
 
                 return View(viewModel);
